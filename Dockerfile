@@ -8,7 +8,7 @@
 FROM dockerfile/ubuntu
 
 # Install Python.
-RUN apt-get install -y python python-dev python-pip
+RUN apt-get install -y python python-dev python-pip python-virtualenv
 
 # Define mountable directories.
 VOLUME ["/data"]
